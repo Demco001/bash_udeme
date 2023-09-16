@@ -48,4 +48,4 @@ echo "###############################################"
 sudo systemctl status httpd
 
 ls /var/www/html
-#udeme update 16.09.23 - 23-07
+#udeme update 16.09.23 - 23-08
