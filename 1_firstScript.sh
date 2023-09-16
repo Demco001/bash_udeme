@@ -29,3 +29,4 @@ echo "Disk Utilization"
 echo
 
 df -h
+#updated 16.09.2023
