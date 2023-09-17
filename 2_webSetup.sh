@@ -20,7 +20,7 @@ wget "https://www.tooplate.com/download/2109_the_card"
 
 echo "###############################################"
 echo "Extracting downloaded files"
-echo "###############################################"
+/cho "###############################################"
 mv 2109_the_card webApp.zip && unzip webApp.zip > /dev/null
 
 
@@ -30,7 +30,7 @@ echo "###############################################"
 sudo rm -rf /var/www/html/*
 sudo cp -r 2109_the_card/* /var/www/html/
 
-echo "###############################################"
+ - o "###############################################"
 echo "Restarting HTTPD Service"
 echo "###############################################"
 sudo systemctl restart httpd
@@ -48,5 +48,4 @@ echo "###############################################"
 sudo systemctl status httpd
 
 ls /var/www/html
-
-
+#udeme update 16.09.23 - 23-08
